@@ -9,7 +9,7 @@
       "urls": [
         "/favicon.ico",
         "/index.html",
-        "/main.6ae624e63a1e74816a02.js",
+        "/main.249672c43ad89c40e23e.js",
         "/polyfills.2903ad11212d7d797800.js",
         "/runtime.6afe30102d8fe7337431.js",
         "/scripts.e611bf743f88e3c9ed67.js",
@@ -53,20 +53,22 @@
       "patterns": [
         "\\/(?:.+\\/)?[^\\/]*\\.md"
       ],
-      "strategy": "performance",
+      "strategy": "freshness",
       "maxSize": 50,
-      "maxAge": 604800000,
+      "maxAge": 172800000,
+      "timeoutMs": 3000,
       "version": 1
     },
     {
       "name": "configData",
       "patterns": [
-        "\\/(?:.+\\/)?[^\\/]*\\.json",
+        "https:\\/\\/raw\\.githubusercontent\\.com\\/Lurance\\/X\\/Articles\\/config\\.json",
         "https:\\/\\/api\\.github\\.com\\/repos\\/Lurance\\/X\\/contents\\/\\?ref=Articles"
       ],
-      "strategy": "performance",
+      "strategy": "freshness",
       "maxSize": 50,
       "maxAge": 172800000,
+      "timeoutMs": 3000,
       "version": 1
     }
   ],
@@ -90,8 +92,8 @@
     "/assets/images/paypal.svg": "92f3bc495f20a0190d3041be03345c46d6238c25",
     "/assets/images/wechat.svg": "330496ad42446a29f37a2b97fc388ebd77a8cb9f",
     "/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "/index.html": "0b8c54263ec159ff66f8e51f3074761e47192142",
-    "/main.6ae624e63a1e74816a02.js": "c87cc8da65b439e977d2bc9a2a28df9b1ef276c1",
+    "/index.html": "2d312cad6ed52e021c492eeee28fe3318f374dcd",
+    "/main.249672c43ad89c40e23e.js": "fff445e3c5bafd482b053d8f1adab57d4cc35000",
     "/polyfills.2903ad11212d7d797800.js": "193f6d7b77c2bce633da2f543082303b4f32d7ed",
     "/runtime.6afe30102d8fe7337431.js": "078e320cc6fdaf355836c3b1c52b059cdd33fc7e",
     "/scripts.e611bf743f88e3c9ed67.js": "acc0bbe82c2cf93735770b73e076205cb0ad0a48",
